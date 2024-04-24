@@ -1,0 +1,86 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Continuous Image Scrolling</title>
+<style>
+    .scroll-container {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .scroll-content {
+        display: inline-block;
+        animation: scroll 20s linear infinite;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .scroll-item {
+        display: inline-block;
+        width: 300px; /* Adjust as per your image width */
+        height: 200px; /* Adjust as per your image height */
+        margin-right: 20px; /* Adjust spacing between images */
+    }
+</style>
+</head>
+<body>
+<div class="scroll-container">
+    <div class="scroll-content">
+        Repeat your images here -->
+       <!-- // <div class="scroll-item"><img src="" alt="Image 1"></div>
+        <div class="scroll-item"><img src="" alt="Image 2"></div>
+        <div class="scroll-item"><img src="" alt="Image 3"></div>
+         Add more images as needed -->
+    <!-- </div>
+</div>
+</body>
+</html>  -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scroll-container {
+  background-color:whitesmoke;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<h2>Image Gallery With Horizontal Scroll</h2>
+<p>Use the horizontal scrollbar to see the other images.</p>
+
+<div class="scroll-container">
+  <img src="./images/shirt1.png" alt="Cinque Terre" width="200" height="200">
+  <img src="./images/shirts 2.png" alt="Forest" width="200" height="200">
+  <img src="./images/shirts 3.png" alt="Northern Lights" width="200" height="200">
+  <img src="./images/shirts 4.png" alt="Mountains" width="200" height="200">
+  <img src="./images/shirts 5.png" alt="Cinque Terre" width="200" height="200">
+  <img src="./images/shirts 6.png" alt="Forest" width="200" height="200">
+  <img src="./images/shirts 7.png" alt="Northern Lights" width="200" height="200">
+  <img src="./images/shirts 8.png" alt="Mountains" width="200" height="200">
+  <img src="./images/shirts 9.png" alt="Mountains" width="200" height="200">
+  <img src="./images/shirts 10.png" alt="Mountains" width="200" height="200">
+</div>
+
+<p>Note that the images are of same size.</p>
+
+</body>
+</html>
